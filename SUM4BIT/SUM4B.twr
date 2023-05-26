@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml SUM4B.twx SUM4B.ncd -o SUM4B.twr SUM4B.pcf
+
+Design file:              SUM4B.ncd
+Physical constraint file: SUM4B.pcf
+Device,package,speed:     xc6slx9,csg225,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C_out          |    7.670|
+A<0>           |Suma<0>        |    8.872|
+A<0>           |Suma<1>        |    8.775|
+A<0>           |Suma<2>        |    9.108|
+A<0>           |Suma<3>        |    8.652|
+A<1>           |C_out          |    7.462|
+A<1>           |Suma<0>        |    8.664|
+A<1>           |Suma<1>        |    8.567|
+A<1>           |Suma<2>        |    8.900|
+A<1>           |Suma<3>        |    8.444|
+A<2>           |C_out          |    8.192|
+A<2>           |Suma<0>        |    9.394|
+A<2>           |Suma<1>        |    9.297|
+A<2>           |Suma<2>        |    9.630|
+A<2>           |Suma<3>        |    9.174|
+A<3>           |C_out          |    7.986|
+A<3>           |Suma<0>        |    9.188|
+A<3>           |Suma<1>        |    9.091|
+A<3>           |Suma<2>        |    9.424|
+A<3>           |Suma<3>        |    8.968|
+B<0>           |C_out          |    8.401|
+B<0>           |Suma<0>        |    9.603|
+B<0>           |Suma<1>        |    9.506|
+B<0>           |Suma<2>        |    9.839|
+B<0>           |Suma<3>        |    9.383|
+B<1>           |C_out          |    7.706|
+B<1>           |Suma<0>        |    8.908|
+B<1>           |Suma<1>        |    8.811|
+B<1>           |Suma<2>        |    9.144|
+B<1>           |Suma<3>        |    8.688|
+B<2>           |C_out          |    9.069|
+B<2>           |Suma<0>        |   10.271|
+B<2>           |Suma<1>        |   10.174|
+B<2>           |Suma<2>        |   10.507|
+B<2>           |Suma<3>        |   10.051|
+B<3>           |C_out          |    8.539|
+B<3>           |Suma<0>        |    9.741|
+B<3>           |Suma<1>        |    9.644|
+B<3>           |Suma<2>        |    9.977|
+B<3>           |Suma<3>        |    9.521|
+S              |C_out          |    8.837|
+S              |Suma<0>        |   10.039|
+S              |Suma<1>        |    9.942|
+S              |Suma<2>        |   10.275|
+S              |Suma<3>        |    9.819|
+---------------+---------------+---------+
+
+
+Analysis completed Thu May 25 19:41:36 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4570 MB
+
+
+

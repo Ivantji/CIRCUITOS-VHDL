@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/SEMESTRE V/CIRCUITOS LOGICOS/SUM4BIT/SUM4B.xst" -ofn "D:/SEMESTRE V/CIRCUITOS LOGICOS/SUM4BIT/SUM4B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-3 "SUM4B.ngc" SUM4B.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SUM4B_map.ncd SUM4B.ngd SUM4B.pcf 
+par -w -intstyle ise -ol high -mt off SUM4B_map.ncd SUM4B.ncd SUM4B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SUM4B.twx SUM4B.ncd -o SUM4B.twr SUM4B.pcf 
+netgen -intstyle ise -ar Structure -tm SUM4B -w -dir netgen/synthesis -ofmt vhdl -sim SUM4B.ngc SUM4B_synthesis.vhd 
