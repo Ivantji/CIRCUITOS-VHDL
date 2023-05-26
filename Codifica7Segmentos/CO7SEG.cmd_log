@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG.xst" -ofn "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-3 "CO7SEG.ngc" CO7SEG.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CO7SEG_map.ncd CO7SEG.ngd CO7SEG.pcf 
+par -w -intstyle ise -ol high -mt off CO7SEG_map.ncd CO7SEG.ncd CO7SEG.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CO7SEG.twx CO7SEG.ncd -o CO7SEG.twr CO7SEG.pcf 
+xst -intstyle ise -ifn "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG.xst" -ofn "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-3 "CO7SEG.ngc" CO7SEG.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CO7SEG_map.ncd CO7SEG.ngd CO7SEG.pcf 
+par -w -intstyle ise -ol high -mt off CO7SEG_map.ncd CO7SEG.ncd CO7SEG.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CO7SEG.twx CO7SEG.ncd -o CO7SEG.twr CO7SEG.pcf 
+xst -intstyle ise -ifn "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG.xst" -ofn "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG.syr" 
+netgen -intstyle ise -ar Structure -tm CO7SEG -w -dir netgen/synthesis -ofmt vhdl -sim CO7SEG.ngc CO7SEG_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-3 "CO7SEG.ngc" CO7SEG.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CO7SEG_map.ncd CO7SEG.ngd CO7SEG.pcf 
+par -w -intstyle ise -ol high -mt off CO7SEG_map.ncd CO7SEG.ncd CO7SEG.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CO7SEG.twx CO7SEG.ncd -o CO7SEG.twr CO7SEG.pcf 

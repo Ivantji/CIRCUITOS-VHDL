@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG_isim_beh.exe" -prj "D:/SEMESTRE V/CIRCUITOS LOGICOS/Codifica7Segmentos/CO7SEG_beh.prj" "work.CO7SEG" 

@@ -1,0 +1,29 @@
+Command line:
+   CO7SEG_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50681
+
+Thu May 25 19:15:32 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5150.95 Meg
+
+ Total Signals          : 2
+ Total Nets             : 11
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 371
+Total Line Count : 18
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4679.09 Meg
+
+Thu May 25 19:17:54 2023
+
