@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf
+
+Design file:              MUX.ncd
+Physical constraint file: MUX.pcf
+Device,package,speed:     xc6slx9,csg225,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+D0<0>          |Y<0>           |    7.130|
+D0<1>          |Y<1>           |    7.103|
+D0<2>          |Y<2>           |    6.833|
+D0<3>          |Y<3>           |    7.045|
+D1<0>          |Y<0>           |    6.467|
+D1<1>          |Y<1>           |    6.417|
+D1<2>          |Y<2>           |    6.377|
+D1<3>          |Y<3>           |    6.126|
+D2<0>          |Y<0>           |    6.571|
+D2<1>          |Y<1>           |    6.295|
+D2<2>          |Y<2>           |    6.962|
+D2<3>          |Y<3>           |    7.014|
+D3<0>          |Y<0>           |    7.046|
+D3<1>          |Y<1>           |    7.067|
+D3<2>          |Y<2>           |    6.388|
+D3<3>          |Y<3>           |    6.542|
+S<0>           |Y<0>           |    6.833|
+S<0>           |Y<1>           |    7.341|
+S<0>           |Y<2>           |    6.673|
+S<0>           |Y<3>           |    6.595|
+S<1>           |Y<0>           |    7.099|
+S<1>           |Y<1>           |    6.884|
+S<1>           |Y<2>           |    6.233|
+S<1>           |Y<3>           |    6.300|
+---------------+---------------+---------+
+
+
+Analysis completed Thu May 25 18:44:54 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

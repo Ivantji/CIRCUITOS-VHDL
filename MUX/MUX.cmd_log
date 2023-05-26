@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/SEMESTRE V/CIRCUITOS LOGICOS/MUX/MUX.xst" -ofn "D:/SEMESTRE V/CIRCUITOS LOGICOS/MUX/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-3 "MUX.ngc" MUX.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -mt off MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+xst -intstyle ise -ifn "D:/SEMESTRE V/CIRCUITOS LOGICOS/MUX/MUX.xst" -ofn "D:/SEMESTRE V/CIRCUITOS LOGICOS/MUX/MUX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-3 "MUX.ngc" MUX.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MUX_map.ncd MUX.ngd MUX.pcf 
+par -w -intstyle ise -ol high -mt off MUX_map.ncd MUX.ncd MUX.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MUX.twx MUX.ncd -o MUX.twr MUX.pcf 
+netgen -intstyle ise -ar Structure -tm MUX -w -dir netgen/synthesis -ofmt vhdl -sim MUX.ngc MUX_synthesis.vhd 
